@@ -22,6 +22,7 @@ const updateTimer = () => {
 }
 
 const startTimer = () => {
+    start.css("background-color", "greenyellow");
     isRuuning = true;
     interval = setInterval(() => {
         timeLeft--;
@@ -42,6 +43,7 @@ const pauseTimer = () => {
         isRuuning = false;
         pause.addClass("paused");
         pause.text("Resume");
+        start.css("background-color", "white");
     }
     else {
         pause.removeClass("paused");

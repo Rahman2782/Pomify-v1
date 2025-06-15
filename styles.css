@@ -76,3 +76,7 @@ button:hover {
 .paused {
     background-color: red;
 }
+
+#start:hover {
+    background-color: greenyellow;
+}
