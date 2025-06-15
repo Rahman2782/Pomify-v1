@@ -72,3 +72,7 @@ button:hover {
     background: transparent;
     transition: border-color 0.2s;
 }
+
+.paused {
+    background-color: red;
+}
